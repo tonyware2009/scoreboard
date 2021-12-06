@@ -14,8 +14,35 @@
 
 </head>
 
-<body>
 
+<body class="best-img">
+  <header class="container-fluid bg-primary text-light">
+    <h2 class="text-center">Scoreboard</h2>
+  </header>
+  <main class="container ">
+    <div class="row">
+      <div class="col-md-6 text-center text-light">
+        <h2>Team Jacob</h2>
+        <button class="btn btn-primary btn-md mx-5 mt-2" onclick="scoreJacob()">Score</button>
+        <button class="btn btn-primary btn-md mx-5 mt-2" onclick=scoreJacobDec()>Score Extra</button>
+        <h3 id="INC">0</h3>
+        <h3 id="IMCR">0</h3>
+      </div>
+      <div class="col-md-6 text-center text-light">
+        <h2>Team Edward</h2>
+        <button class="btn btn-primary btn-md mx-5 mt-2" onclick="scoreEdward()">Score</button>
+        <button class="btn btn-primary btn-md mx-5 mt-2" onclick=scoreEdwardDec()>Score Extra</button>
+        <h3 id="INCR">0</h3>
+        <h3 id="IMC">0</h3>
+
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+
+
+  <footer></footer>
+  <script src="app.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
